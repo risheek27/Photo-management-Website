@@ -4,8 +4,8 @@ const pool = mysql.createPool({
     connectionLimit: 50,
     host: 'localhost',
     user: 'photoapp',
-    password: '0403',
-    database: 'photoapp-db',
+    password: '', //password of database
+    database: '', //name of database
     //debug: true,
 
 });
